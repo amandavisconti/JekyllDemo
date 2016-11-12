@@ -1,0 +1,18 @@
+# Site settings
+title: My Jekyll Demo Site
+email: amandavisconti@gmail.com
+description: > 
+  My site for demonstrating how to build a Jekyll website hosted on GitHub Pages, built for a Programming Historian lesson.
+baseurl: "/JekyllDemo" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: literature_geek
+github_username:  amandavisconti
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
