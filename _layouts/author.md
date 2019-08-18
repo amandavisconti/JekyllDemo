@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-{{ page.name }}
+<h2>{{ page.name }}</h2>
 
 {{ content }}
 
-Posts by {{ page.name }}:
+<h2>Posts by {{ page.name }}:</h2>
 {% for post in site.posts %}
 {% if post.author == page.name %}
 * <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>  
