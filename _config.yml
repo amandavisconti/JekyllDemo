@@ -1,12 +1,12 @@
 # Site settings
 title: Collaborative Publishing Jekyll Demo Site
-email: amandavisconti@gmail.com
+email: visconti@virginia.edu
 description: > 
-  My site for demonstrating how to build a Jekyll website hosted on GitHub Pages, built for a Programming Historian lesson.
+  Our site for demonstrating how to build a collaborative publishing ecosystem with Jekyll hosted on GitHub Pages, built for a Programming Historian lesson.
 baseurl: "/CollabDemo" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: literature_geek
-github_username:  amandavisconti
+twitter_username: scholarslab
+github_username:  scholarslab
 
 # Build settings
 markdown: kramdown
@@ -16,3 +16,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+collections:
+  people:
+    output: true
