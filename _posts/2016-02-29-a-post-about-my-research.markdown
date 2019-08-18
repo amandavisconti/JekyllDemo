@@ -1,6 +1,6 @@
 ---
 layout: post
-name: amanda-visconti
+author: amanda-visconti
 title:  "A Post about My Research"
 date:   2016-11-12 10:35:57 -0500
 categories: 
