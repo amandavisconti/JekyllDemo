@@ -1,5 +1,6 @@
 ---
 layout: post
+name: brandon-walsh
 title:  "Welcome to Jekyll!"
 date:   2016-11-12 09:35:57 -0500
 categories: 
